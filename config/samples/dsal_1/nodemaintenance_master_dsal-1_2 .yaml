@@ -1,0 +1,7 @@
+apiVersion: nodemaintenance.kubevirt.io/v1beta1
+kind: NodeMaintenance
+metadata:
+  name: nodemaintenance-sample-master-2
+spec:
+  nodeName: master-2
+  reason: "Test workload availability master 2"

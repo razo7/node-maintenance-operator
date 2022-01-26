@@ -1,0 +1,7 @@
+apiVersion: nodemaintenance.kubevirt.io/v1beta1
+kind: NodeMaintenance
+metadata:
+  name: nodemaintenance-sample-master-0
+spec:
+  nodeName: ci-ln-xyrv0n2-72292-nzlrn-master-0
+  reason: "Test workload availability master 0"

@@ -84,7 +84,7 @@ type NodeMaintenanceReconciler struct {
 // - https://pkg.go.dev/sigs.k8s.io/controller-runtime@v0.9.2/pkg/reconcile
 func (r *NodeMaintenanceReconciler) Reconcile(ctx context.Context, req ctrl.Request) (ctrl.Result, error) {
 	r.logger = log.FromContext(ctx)
-	r.logger.Info("Reconciling NodeMaintenance")
+	r.logger.Info("Reconciling NodeMaintenance - 4.10- LeaderElectionNamespace - ClusterRole ")
 
 	// Fetch the NodeMaintenance instance
 	instance := &nodemaintenancev1beta1.NodeMaintenance{}

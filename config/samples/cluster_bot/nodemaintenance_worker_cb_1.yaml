@@ -1,0 +1,7 @@
+apiVersion: nodemaintenance.kubevirt.io/v1beta1
+kind: NodeMaintenance
+metadata:
+  name: nodemaintenance-sample-worker-1
+spec:
+  nodeName: ci-ln-xyrv0n2-72292-nzlrn-worker-b-27m9b
+  reason: "Test workload availability worker 1"
